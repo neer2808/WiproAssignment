@@ -19,5 +19,6 @@ public class ArrayAssign8 {
       }
 
     }
+    System.out.println(" the sum is = " +sum);
   }
 }
