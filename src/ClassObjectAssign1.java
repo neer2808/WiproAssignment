@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 class Box
 {
-  int width, height, depth;
+ private int width, height, depth;
   public Box(int width, int height, int depth) {
     this.width = width;
     this.height = height;
@@ -13,6 +13,7 @@ class Box
     return (width*height*depth);
   }
 }
+
 public class ClassObjectAssign1 {
   public static void main(String[] args) {
     Scanner s = new Scanner(System.in);
