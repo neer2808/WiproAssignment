@@ -1,5 +1,5 @@
 public class ArrayAssign10 {
-  public static int[] check(int[] nums) {
+  public static int[] evenodd(int[] nums) {
     // if there are only two elements in the array then return the array
     if (nums.length < 2) return nums;
     // result array with same length
@@ -20,7 +20,7 @@ public class ArrayAssign10 {
   }
   public static void main(String[] args) {
     int arr[] = {10,30,23,5,6};
-   int rarr[]=  check(arr);
+   int rarr[]=  evenodd(arr);
     for (int i = 0; i <rarr.length ; i++) {
       System.out.println(rarr[i]);
     }
