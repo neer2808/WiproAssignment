@@ -9,7 +9,7 @@ public class Test {
     Veena obj = new Veena();
     obj.play();
     Saxophone obj1 = new Saxophone();
-    obj.play();
+    obj1.play();
     Playable pobj ;
     pobj = new Veena();
     pobj.play();

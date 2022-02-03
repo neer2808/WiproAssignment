@@ -5,7 +5,6 @@ abstract class Compartment
   public abstract String notice();
 }
 
-
 class FirstClass extends Compartment
 {
   @Override
@@ -16,7 +15,6 @@ class FirstClass extends Compartment
 }
 class Ladies extends  Compartment
 {
-
   @Override
   public String notice() {
 
@@ -42,15 +40,15 @@ class Luggage extends Compartment
   }
 }
 
-
 class TestCompartments
 {
   public static void main(String[] args) {
     Compartment arr[] = new Compartment[10];
+    Random r = new Random();
     int max = 4;
     int min = 1;
     for (int i = 0; i < arr.length; i++) {
-        int random =(int) (Math.random()*(max-min+1)+min);
+        int random = 1+ r.nextInt(4);
       System.out.println(random);
       switch (random)
       {
