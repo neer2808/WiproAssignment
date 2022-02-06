@@ -7,7 +7,5 @@ public class ArrayAssign1 {
     }
     System.out.println(sum);
     System.out.println(sum/arr.length);
-
-
   }
 }

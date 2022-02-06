@@ -9,6 +9,8 @@ class Animal
     System.out.println("sleep");
   }
 }
+
+
 class Bird extends Animal
 {
   public void eat()
@@ -24,6 +26,8 @@ class Bird extends Animal
     System.out.println("fly");
   }
 }
+
+
 public class InheriAssign1 {
   public static void main(String[] args) {
     Animal obj = new Animal();
