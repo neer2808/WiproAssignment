@@ -21,6 +21,6 @@ public class StringAssign10 {
     }
     System.out.println(resultString);
 
-    };
+    }
 
   }
