@@ -10,6 +10,5 @@ public class Test {
     // private we cannot access outside the class
     // protected we can access in same package sub and non subclasses and another package subclasses only
 
-
   }
 }
