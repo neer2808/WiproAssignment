@@ -3,7 +3,8 @@ package StringAssignments;
 public class StringAssign1 {
   public static void main(String[] args)
   {
-    String str = "aeea";
+    String str = "aeaea";
+
     StringBuffer str1 = new StringBuffer(str);
     str1.reverse();
     System.out.println(str1);
@@ -16,6 +17,7 @@ public class StringAssign1 {
       System.out.println("not palendrome");
     }
   }
+// Second logic to immplement it
 
 
 //    String str = "neken";
