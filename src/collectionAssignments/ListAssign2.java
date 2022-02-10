@@ -5,7 +5,7 @@ import com.sun.codemodel.internal.JForEach;
 import java.util.ArrayList;
 
 /*
-1) create an application for employee managemment with the foloowing classes:
+1) create an application for employee management with the folowing classes:
 
 a) create an Employee class with following attributes and behaviour
   1) int empId
@@ -114,8 +114,8 @@ return str;
 public class ListAssign2 {
   public static void main(String[] args) {
     EmployeeDB obj = new EmployeeDB();
-    obj.addEmployee(new Employee(1,"aa","aa@gmail.com","M",50000));
-    obj.addEmployee(new Employee(2,"bb","bb@gmail.com","M",60000));
+    obj.addEmployee(new Employee(1,"aa","aa@gmail.com","M",5000.78f));
+    obj.addEmployee(new Employee(2,"bb","bb@gmail.com","M",6000.45f));
     obj.addEmployee(new Employee(3,"cc","aa@gmail.com","F",70000));
     //obj.displayrecord();
     System.out.println(obj.showPlayslip(2));

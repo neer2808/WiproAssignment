@@ -60,6 +60,6 @@ public class Exercise1 {
     return sb.toString();
   }
   public static void main(String[] args) {
-    System.out.println(show(-120));
+    System.out.println(show(-25064));
   }
 }
