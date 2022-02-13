@@ -2,7 +2,7 @@ package collectionAssignments;
 
 
 import java.util.*;
-        import java.util.Map.Entry;
+import java.util.Map.Entry;
 
 /*
 1) develop a java class with an instance variable M1( HashMap)
